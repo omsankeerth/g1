@@ -1,0 +1,5 @@
+service
+{
+       "_SYS_BIC"."grantmgmt.SLFiori.HANAViews.transactions.cashRequest/grantCode" as "grantCode" 
+        key generate local "CostCenter" ; 
+}
