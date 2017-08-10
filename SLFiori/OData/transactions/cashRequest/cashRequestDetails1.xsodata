@@ -1,0 +1,6 @@
+service
+{
+       "_SYS_BIC"."grantmgmt.SLFiori.HANAViews.transactions.cashRequest/cashRequestDetails1" as "CashRequest" 
+       key generate local "DocEntry"; 
+       
+}

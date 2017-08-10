@@ -1,0 +1,6 @@
+service
+{
+       "_SYS_BIC"."grantmgmt.SLFiori.HANAViews.transactions.freezing/freezing_freezingList" as "DocEntry" 
+       key generate local "DocEntry" ; 
+       
+}

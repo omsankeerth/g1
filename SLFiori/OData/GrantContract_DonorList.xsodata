@@ -1,0 +1,6 @@
+service
+{
+       "_SYS_BIC"."grantmgmt.SLFiori.HANAViews/GrantContract_DonorList" as "Donor" 
+       key generate local "Donor"; 
+       
+}

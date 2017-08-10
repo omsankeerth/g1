@@ -1,0 +1,5 @@
+service
+{
+       "_SYS_BIC"."grantmgmt.SLFiori.HANAViews/RevenueType" as "RevenueType" 
+        key generate local "RevenueType"; 
+}

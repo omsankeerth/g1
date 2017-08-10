@@ -1,0 +1,5 @@
+service
+{
+       "_SYS_BIC"."grantmgmt.SLFiori.HANAViews.common/bankAcctDetails" as "BankDetails" 
+        key generate local "Subsidary" ; 
+}

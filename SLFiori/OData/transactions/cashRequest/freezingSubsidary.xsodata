@@ -1,0 +1,6 @@
+service
+{
+       "_SYS_BIC"."grantmgmt.SLFiori.HANAViews.transactions.cashRequest/freezingSubsidary" as "Subsidary" 
+       key generate local "DocEntry" ; 
+       
+}

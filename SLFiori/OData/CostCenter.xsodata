@@ -1,0 +1,5 @@
+service
+{
+       "_SYS_BIC"."grantmgmt.SLFiori.HANAViews/CostCenter" as "CostCenter" 
+        key generate local "CostCenter"; 
+}

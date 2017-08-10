@@ -1,0 +1,5 @@
+service
+{
+       "_SYS_BIC"."grantmgmt.SLFiori.HANAViews/ParentProgram" as "ParentProgram" 
+        key generate local "Code" ; 
+}

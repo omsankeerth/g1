@@ -1,0 +1,6 @@
+service namespace "Workshop_V3"
+{
+    // Create, Insert, Update, Delete 
+    "CMD"."OINV" as "UDT"
+     with("DocEntry","DocNum");
+}

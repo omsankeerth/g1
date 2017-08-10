@@ -1,0 +1,5 @@
+service
+{
+       "_SYS_BIC"."grantmgmt.SLFiori.HANAViews.common/countryList" as "Country" 
+        key generate local "Subsidary" ; 
+}

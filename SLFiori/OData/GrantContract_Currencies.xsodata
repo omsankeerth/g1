@@ -1,0 +1,6 @@
+service
+{
+       "_SYS_BIC"."grantmgmt.SLFiori.HANAViews/GrantContract_Currencies" as "Currency" 
+       key generate local "Currency"; 
+       
+}

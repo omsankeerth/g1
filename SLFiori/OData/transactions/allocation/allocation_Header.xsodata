@@ -1,0 +1,6 @@
+service
+{
+       "_SYS_BIC"."grantmgmt.SLFiori.HANAViews.transactions.allocation/allocation_Header" as "Allocation" 
+       key generate local "DocEntry"; 
+       
+}

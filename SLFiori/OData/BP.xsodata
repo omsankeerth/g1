@@ -1,0 +1,26 @@
+service namespace "Workshop_V1"
+{
+    "CMD"."OCRD" as "BusinessPartner"
+    with("CardCode","CardName","Cellular")
+    navigates ( "BP_BPAddress" as "BPAddress","BP_Contacts" as "ContactPersons")
+    
+    create forbidden
+    update forbidden
+    delete forbidden;
+    
+    "CMD"."CRD1" as "BPAddress"
+    create forbidden
+    update forbidden
+    delete forbidden;
+    
+    association "BP_BPAddress" principal "BusinessPartner"("CardCode")  
+    multiplicity  "1" dependent  "BPAddress"("CardCode") multiplicity "*";
+    
+    "CMD"."OCPR" as "Contacts"
+    create forbidden
+    update forbidden
+    delete forbidden;
+
+    association "BP_Contacts" principal "BusinessPartner"("CardCode")  
+    multiplicity  "1" dependent  "Contacts"("CardCode") multiplicity "*";
+}

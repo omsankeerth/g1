@@ -1,0 +1,6 @@
+service
+{
+       "_SYS_BIC"."grantmgmt.SLFiori.HANAViews/GrantContract_DBName" as "DBName" 
+       key generate local "DocEntry"; 
+       
+}
